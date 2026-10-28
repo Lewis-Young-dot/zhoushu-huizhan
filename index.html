@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="肘术会詹网页版——非官方同人。选择五条悟、宿傩等20位角色，体验高速飞行、近战连击与领域攻防。">
+<title>肘术会詹｜非官方同人 · 在线试玩</title>
+<link rel="icon" href="play/game.icon.png"><link rel="stylesheet" href="site.css?v=20261027b">
+</head>
+<body>
+<main id="landing">
+<div class="masthead"><span class="seal">肘</span><span>肘术会詹</span><span class="edition">浏览器试玩版 · 0.6.0</span></div>
+<section class="hero">
+ <div class="copy"><p class="eyebrow">无下限 × 御厨子</p><h1>肘术会詹</h1>
+ <p class="fan-label">非官方同人 · 免费试玩</p>
+ <p class="intro">把战场打上天空。<br>高速追击、术式破坏、领域交锋。</p>
+ <div class="launch"><button id="start">进入战场 <span>↗</span></button><button id="guide" class="secondary">操作说明</button></div>
+ <p class="hint">手机触屏 / 电脑键盘 · 支持 AI 对战与自由训练</p>
+ <label class="touch-choice"><input type="checkbox" id="touch-mode">触屏操作 <span>手机推荐横屏</span></label>
+ <div class="traits"><span>20 位角色</span><span>三渲二画面</span><span>标准 / 特级 AI</span></div>
+ </div>
+ <div class="art"><img src="cover.jpg" alt="五条悟与宿傩在高空交战的游戏实机画面"><div class="art-label">GOJO <span>VS</span> SUKUNA</div><span class="art-note">游戏实机画面</span></div>
+</section>
+<section id="instructions" class="instructions" hidden>
+ <h2>手机与电脑都能玩</h2><p>手机：左半屏任意位置按下即出现摇杆，推到底自动连续闪避；右下大键连击，内圈重击 / 闪避 / 追击 / 防御，外圈为术式（转圈显示冷却）。五条悟按住术式蓄力，松手释放；右侧上升 / 下降控制高度。右半屏空白处滑动转动视角。建议横屏游玩。</p><div class="keys"><p><kbd>W A S D</kbd>移动</p><p><kbd>空格</kbd><kbd>C</kbd>上升 / 下降</p><p><kbd>Shift</kbd>冲刺闪避</p><p><kbd>F</kbd>瞬移追击</p><p><kbd>J</kbd><kbd>K</kbd>连击 / 重击</p><p><kbd>Q</kbd>防御</p><p><kbd>1 2 3</kbd>术式</p><p><kbd>4</kbd>领域展开</p><p><kbd>Esc</kbd>暂停</p></div>
+ <p>手机可在游戏设置中选择流畅画质、自定义虚拟按键：拖动位置、调整大小与透明度、隐藏辅助按键，横竖屏布局分别保存。电脑可自定义键位；背景音乐也可关闭。选择对手后直接点角色头像；特级 AI 会主动追击和反击。</p>
+</section>
+<footer><span>非官方同人 · 免费试玩</span><span>首次加载需要下载游戏资源，稍等片刻即可进入。</span></footer>
+<p class="fan-notice">本项目为非官方同人创作。</p>
+</main>
+<section id="arena" hidden aria-label="游戏画面">
+<div class="toolbar"><a href="./" aria-label="返回首页">肘术会詹</a><span id="tip">点击游戏画面开始操作 · Esc 暂停 · 设置可关闭音乐</span><button id="fullscreen">全屏游玩</button></div>
+<iframe id="gameframe" title="肘术会詹 · 非官方同人" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</section>
+<script src="site.js?v=20261027b"></script>
+</body></html>

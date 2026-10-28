@@ -1,0 +1,16 @@
+{
+  "title": "肘术会詹",
+  "notice": "非官方同人",
+  "version": "20261027b",
+  "source_zip_sha256": "4301906bcc0f4185cb1540c4168d65fa041a838b417ab6cdc0d81d1a388348fa",
+  "game": {
+    "game.wasm": {
+      "size": 39509339,
+      "sha256": "7eda98958eb09135a1acb54a4323a00b1a55af1997f15fa1cdc2b93e3df46656"
+    },
+    "game.pck": {
+      "size": 57084632,
+      "sha256": "e55de10df3397df7681f553591133f293dcc15633dfffb02abdfabccea1138c5"
+    }
+  }
+}
